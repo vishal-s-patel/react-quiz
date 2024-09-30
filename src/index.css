@@ -258,3 +258,35 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+@media (max-width: 576px) {
+  body {
+    padding: 3rem 0.5rem;
+  }
+
+  .app-header {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  img {
+    width: 6rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .main {
+    width: 100vw;
+    padding: 0 2.4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+}
